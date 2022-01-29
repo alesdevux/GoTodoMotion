@@ -1,10 +1,10 @@
 import React from "react";
 import './TodoIcon.css';
-import {ReactComponent as CheckSVG} from '../Icons/check.svg';
-import {ReactComponent as DeleteSVG} from '../Icons/delete.svg';
-import {ReactComponent as PlusSVG} from '../Icons/plus.svg';
-import {ReactComponent as CloseSVG} from '../Icons/close.svg';
-import {ReactComponent as TasksSVG} from '../Icons/tasks.svg';
+import CheckSVG from '../Icons/check.svg?component';
+import DeleteSVG from '../Icons/delete.svg?component';
+import PlusSVG from '../Icons/plus.svg?component';
+import CloseSVG from '../Icons/close.svg?component';
+import TasksSVG from '../Icons/tasks.svg?component';
 
 function TodoIcon({type, color, onClick}) {
   const iconTypes = {
